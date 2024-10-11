@@ -1,0 +1,28 @@
+
+/* Verse 1 and Bridge styles */
+section.verse-1, section.bridge p {
+    font-style: italic; /* convey sadness and vulnerability */
+    color: #666; /* darker gray text */
+}
+
+/* Pre-Chorus styles */
+section.pre-chorus p {
+    font-size: 20px; /* slightly smaller than the verse */
+    font-style: italic; /* convey a sense of vulnerability */
+    color: #999; /* lighter gray text */
+}
+
+/* Chorus styles */
+section.chorus p {
+    font-size: 24px; /* emphasize the message */
+    font-weight: bold;
+    color: #ff69b4; /* bright pink to represent empowerment and triumph */
+    text-transform: uppercase; /* shout it out! */
+}
+
+/* Verse 2 styles */
+section.verse-2 p {
+    font-size: 20px; /* slightly smaller than the chorus */
+    font-weight: bold; /* convey determination and empowerment */
+    color: #34c759; /* bright green to represent growth and confidence */
+}

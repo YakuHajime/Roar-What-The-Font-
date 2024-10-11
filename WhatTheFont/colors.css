@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #333;
+    --secondary-color: #f7f7f7;
+    --text-color: #666;
+    --highlight-color: #ff69b4;
+    --accent-color: #34c759;
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+main {
+    background-color: var(--secondary-color);
+}
+
+section.verse-1, section.bridge p {
+    color: var(--text-color);
+}
+
+section.chorus p {
+    color: var(--highlight-color);
+}
+
+section.verse-2 p {
+    color: var(--accent-color);
+}
